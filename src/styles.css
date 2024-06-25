@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Lilita+One&family=Protest+Guerrilla&family=Righteous&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&family=Workbench&display=swap');
+/* src/styles.css */
+.header-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #002366; /* Gold color */
+    flex-wrap: wrap;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 50px;
+  }
+  
+  .hospital-name {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .header-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header-button-emergency {
+    font-family: "Lilita One", sans-serif;
+    color: black;
+    border-color: #007BFF;
+    background-color: #FF0000;
+  }
+  
+  .header-button-emergency:hover {
+    background-color: #cd5c5c;
+    transform: scale(1.1);
+  }
+  
+  .header-button-lifeline {
+    font-family: "Lilita One", sans-serif;
+    color: black;
+    border-color: #007BFF;
+    background-color: #00b7eb ;
+  }
+  
+  .header-button-lifeline:hover {
+    background-color: #00ffff;
+    transform: scale(1.1);
+  }
+  
+  .hero-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .hero-button {
+    font-family: "Righteous", sans-serif;
+    font-size: 30px;
+    padding: 15px 25px;
+    background-color: transparent;
+    color: black;
+    font:bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    /* border: 2px solid #007BFF; */
+    transition: all 0.3s ease-in-out;
+    flex: 1 1 200px; /* Responsive flex item */
+    padding: 30px;
+  border-radius: 20px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  border: 8px solid white;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+              5px 5px 15px rgba(0, 0, 0, 0.35),
+              inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+              inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  }
+  
+  .hero-button:hover {
+    /* background-color: #007BFF; */
+    color: black;
+    font:bold;
+    background-color: #e0ffff ;
+    /* transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); */
+    border: 8px solid #80daeb;
+    transform: translateY(-10px);
+  }
+  
